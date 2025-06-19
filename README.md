@@ -2,7 +2,7 @@
   <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/06/n8n_pipeline.png" alt="DDC Logo" width="80%"/>
 </p>
 
-# 🚀 CAD-(BIM)-to-Code Automation Pipeline
+# 🚀 CAD-(BIM)-to-Code Automation Pipeline with LLM (ChatGPT)
 
 **Revit, DWG, IFC → Excel + AI-Generated Python Analysis — no Autodesk® required**
 
