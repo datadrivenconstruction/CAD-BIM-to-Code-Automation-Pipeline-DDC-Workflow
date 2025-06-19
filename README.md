@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/06/C.png" alt="DDC Logo" width="100%"/>
+  <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/06/C-1.png" alt="DDC Logo" width="100%"/>
 </p>
 
 # 🚀 CAD-(BIM)-to-Code Automation Pipeline with LLM (ChatGPT)
