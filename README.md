@@ -81,7 +81,7 @@ graph TD;
     C --> D{✅ Success?}
     D -->|Yes| E[📥 Read Excel, PDFs, Schedules]
     D -->|No| F[❌ Show Error]
-    E --> G[🔍 Validate with Corporate Rules]
+    E --> G[🔍 Validate with Excel Rules]
     G --> H[🤖 AI Code Generator]
     H --> I[📊 Charts, Stats, Python Output]
 ```
