@@ -1,10 +1,12 @@
 <p align="center">
-  <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/06/C-1.png" alt="DDC Logo" width="100%"/>
+    <a href="https://datadrivenconstruction.io"> 
+  <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/06/n8n-pipeline-1.png" alt="DDC Logo" width="100%"/>
+      </a>
 </p>
 
 # 🚀 CAD-(BIM)-to-Code Automation Pipeline with LLM (ChatGPT)
 
-**Revit, DWG, IFC → Excel + AI-Generated Python Analysis — no Autodesk® required**
+**Revit (.rvt), AutoCAD (.dwg), IFC, MicroStation (.dgn) → Excel + AI-Generated Python Analysis — no Autodesk® or openBIM tools required**
 
 > 🔄 Built for fully offline workflows using [n8n](https://n8n.io) + [DataDrivenConstruction Converters](https://cadbimconverter.com)
 
@@ -13,9 +15,10 @@
 ## 🛠 Features
 
 - 🔄 Convert `.rvt`, `.ifc`, `.dwg` to:
-  - 📊 Excel (element data)
-  - 📋 Revit Schedules
-  - 📄 Drawing Sheets (PDF)
+  - 📊 Excel (element data as a matrix - project elements in the rows, all properties of all elements in the columns))
+  - 🧱 Polygonal geometry (only Revit and IFC) into an open geometric format `.dae` (Collada) 
+  - 📋 Schedules (only for Revit)
+  - 📄 Drawing Sheets (PDF) (only for Revit)
 - ✅ Quality Control with validation rules
 - 🤖 Ask AI to generate custom Python code
 - 📈 Instantly get charts, stats, summaries from your model
@@ -31,23 +34,25 @@ Before installing n8n, make sure **Node.js** (which includes `npm`) is installed
 
 - Download from: [https://nodejs.org/en/download](https://nodejs.org/en/download)
 
-```bash
-npm install -g n8n
+```bash & cmd
+npx install -g n8n
 n8n start
 ```
-
+or
+``` bash & cmd
+npx n8n
+```
 
 Or download desktop app: [n8n.io/download](https://n8n.io/download)
 
 ### 2. Download Converters
 
-| Format | Converter | Download |
-|--------|-----------|----------|
-| Revit  | `RvtExporter.exe` | [Download](https://cadbimconverter.com/convertors/) |
-| IFC    | `IfcExporter.exe` | [Download](https://cadbimconverter.com/convertors/) |
-| DWG    | `DwgExporter.exe` | [Download](https://cadbimconverter.com/convertors/) |
-
-> 💾 Place downloaded `.exe` files in a permanent local folder (e.g. `C:\out\DDC-Converters`)
+| Format                | Converter         | Download |
+|-----------------------|-------------------|----------|
+| Revit (.rvt)          | `RvtExporter.exe` | [Download](https://cadbimconverter.com/convertors/) |
+| IFC                   | `IfcExporter.exe` | [Download](https://cadbimconverter.com/convertors/) |
+| AutoCAD (.dwg)        | `DwgExporter.exe` | [Download](https://cadbimconverter.com/convertors/) |
+| MicroStation (.dgn)   | `DgnExporter.exe` | [Download](https://cadbimconverter.com/convertors/) |
 
 ---
 
@@ -71,8 +76,8 @@ Or download desktop app: [n8n.io/download](https://n8n.io/download)
 
 ```mermaid
 graph TD;
-    A[📋 Upload RVT/IFC/DWG file] --> B[📁 Create Workspace]
-    B --> C[⚙️ Run Converter]
+    A[📋 Upload RVT/IFC/DWG/DGN file] --> B[📁 Create Workspace]
+    B --> C[⚙️ Run Pipeline-Converter]
     C --> D{✅ Success?}
     D -->|Yes| E[📥 Read Excel, PDFs, Schedules]
     D -->|No| F[❌ Show Error]
@@ -117,5 +122,7 @@ Visit 👉 [https://datadrivenconstruction.io](https://datadrivenconstruction.io
 
 
 <p align="center">
+  <a href="https://datadrivenconstruction.io"> 
   <img src="https://datadrivenconstruction.io/wp-content/uploads/2023/07/DataDrivenConstruction-1-1.png" alt="DDC Logo" width="200"/>
+  </a>
 </p>
