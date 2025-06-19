@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/06/n8n_pipeline.png" alt="DDC Logo" width="80%"/>
+  <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/06/C.png" alt="DDC Logo" width="80%"/>
 </p>
 
 # 🚀 CAD-(BIM)-to-Code Automation Pipeline with LLM (ChatGPT)
@@ -24,12 +24,18 @@
 
 ## 📦 Installation Guide
 
+
 ### 1. Install `n8n` on Windows
+
+Before installing n8n, make sure **Node.js** (which includes `npm`) is installed:
+
+- Download from: [https://nodejs.org/en/download](https://nodejs.org/en/download)
 
 ```bash
 npm install -g n8n
 n8n start
 ```
+
 
 Or download desktop app: [n8n.io/download](https://n8n.io/download)
 
