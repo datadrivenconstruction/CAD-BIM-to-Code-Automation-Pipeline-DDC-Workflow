@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://datadrivenconstruction.io/assets/ddc-logo.svg" alt="DDC Logo" width="200"/>
+  <img src="https://datadrivenconstruction.io/wp-content/uploads/2025/06/n8n_pipeline.png" alt="DDC Logo" width="80%"/>
 </p>
 
 # 🚀 CAD-(BIM)-to-Code Automation Pipeline
 
 **Revit, DWG, IFC → Excel + AI-Generated Python Analysis — no Autodesk® required**
 
-> 🔄 Built for fully offline workflows using [n8n](https://n8n.io) + [DataDrivenConstruction™ Converters](https://cadbimconverter.com)
+> 🔄 Built for fully offline workflows using [n8n](https://n8n.io) + [DataDrivenConstruction Converters](https://cadbimconverter.com)
 
 ---
 
@@ -37,9 +37,9 @@ Or download desktop app: [n8n.io/download](https://n8n.io/download)
 
 | Format | Converter | Download |
 |--------|-----------|----------|
-| Revit  | `RvtExporter.exe` | [Download](https://cadbimconverter.com/revit) |
-| IFC    | `IfcExporter.exe` | [Download](https://cadbimconverter.com/ifc) |
-| DWG    | `DwgExporter.exe` | [Download](https://cadbimconverter.com/dwg) |
+| Revit  | `RvtExporter.exe` | [Download](https://cadbimconverter.com/convertors/) |
+| IFC    | `IfcExporter.exe` | [Download](https://cadbimconverter.com/convertors/) |
+| DWG    | `DwgExporter.exe` | [Download](https://cadbimconverter.com/convertors/) |
 
 > 💾 Place downloaded `.exe` files in a permanent local folder (e.g. `C:\out\DDC-Converters`)
 
@@ -110,3 +110,7 @@ Need help or ideas for automation?
 Visit 👉 [https://datadrivenconstruction.io](https://datadrivenconstruction.io) or open an issue in this repo.
 
 ---
+
+<p align="center">
+  <img src="https://datadrivenconstruction.io/wp-content/uploads/2023/07/DataDrivenConstruction-1-1.png" alt="DDC Logo" width="200"/>
+</p>
