@@ -115,7 +115,6 @@ You'll get the result instantly — no coding needed.
 Need help or ideas for automation?  
 Visit 👉 [https://datadrivenconstruction.io](https://datadrivenconstruction.io) or open an issue in this repo.
 
----
 
 <p align="center">
   <img src="https://datadrivenconstruction.io/wp-content/uploads/2023/07/DataDrivenConstruction-1-1.png" alt="DDC Logo" width="200"/>
